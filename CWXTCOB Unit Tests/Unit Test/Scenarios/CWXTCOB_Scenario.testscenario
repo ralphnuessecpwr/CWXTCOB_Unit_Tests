@@ -35,6 +35,7 @@
         <testcase:stub>../Stubs/CWXTCOB_CWXTDATE_01.stub#Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub</testcase:stub>
         <testcase:stub>../Stubs/CWXTCOB_CWXTSUBC_01.stub#Unit%20Test/Stubs/CWXTCOB_CWXTSUBC_01.stub</testcase:stub>
         <testcase:stub>../Stubs/CWXTCOB_EMPFILE_READ_01.stub#Unit%20Test/Stubs/CWXTCOB_EMPFILE_READ_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWXTCOB_RPTFILE_WRITE_01.stub#Unit%20Test/Stubs/CWXTCOB_RPTFILE_WRITE_01.stub</testcase:stub>
       </testcase:stubs>
     </testscenario:testcase>
   </testscenario:testcases>
