@@ -2,14 +2,20 @@
 <?totaltestVersion 18.3.1.v20180327-2102_9?>
 <!--Topaz for Total Test 18.3.1.v20180327-2102_9 05.04.2018 18:31:55-->
 <testExecutions version="1">
-  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.3.1\CWXTCOB Unit Tests\Unit Test\Scenarios\CWXTCOB_Scenario.testscenario">
+  <file path="C:\Users\cwde-rnuesse\git\CWXTCOB_Unit_Tests\CWXTCOB Unit Tests\Unit Test\Scenarios\CWXTCOB_Scenario.testscenario">
     <testCase duration="0" name="Project: 'CWXTCOB Unit Tests' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1' Test: Check for PARM_LTH'"/>
     <testCase duration="0" name="Project: 'CWXTCOB Unit Tests' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1' Test: Check for PARM_DATA'"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.3.1\CWXTCOB Unit Tests\Unit Test\Stubs\CWXTCOB_CWXTDATE_01.stub">
+  <file path="C:\Users\cwde-rnuesse\git\CWXTCOB_Unit_Tests\CWXTCOB Unit Tests\Unit Test\Stubs\CWXTCOB_CWXTDATE_01.stub">
     <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTDATE_01 Record 1: Check for END_OF_MONTH_SW"/>
     <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTDATE_01 Record 1: Check for YRS_OF_SERVICE"/>
-    <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTDATE_01 Record 1: Check for TODAYS_DATE"/>
+    <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTDATE_01 Record 1: Check for TODAYS_DATE">
+      <failure message="Check for TODAYS_DATE failed">Check for TODAYS_DATE failed
+
+Actual Value:    		180406
+
+Expected Value:  180405</failure>
+    </testCase>
     <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTDATE_01 Record 2: Check for END_OF_MONTH_SW"/>
     <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTDATE_01 Record 2: Check for YRS_OF_SERVICE"/>
     <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTDATE_01 Record 2: Check for TODAYS_DATE"/>
@@ -89,7 +95,7 @@
     <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTDATE_01 Record 14: Check for WA_EMP_HIRE_MM"/>
     <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTDATE_01 Record 14: Check for WA_EMP_HIRE_DD"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.3.1\CWXTCOB Unit Tests\Unit Test\Stubs\CWXTCOB_CWXTSUBC_01.stub">
+  <file path="C:\Users\cwde-rnuesse\git\CWXTCOB_Unit_Tests\CWXTCOB Unit Tests\Unit Test\Stubs\CWXTCOB_CWXTSUBC_01.stub">
     <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTSUBC_01 Record 1: Check for EMP_TYPE"/>
     <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTSUBC_01 Record 1: Check for CALC_SALES"/>
     <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTSUBC_01 Record 1: Check for CALC_COMMISSION"/>
@@ -112,7 +118,7 @@
     <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTSUBC_01 Record 7: Check for CALC_SALES"/>
     <testCase duration="0" name="Stub Assertions: CWXTCOB_CWXTSUBC_01 Record 7: Check for CALC_COMMISSION"/>
   </file>
-  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.3.1\CWXTCOB Unit Tests\Unit Test\Stubs\CWXTCOB_RPTFILE_WRITE_01.stub">
+  <file path="C:\Users\cwde-rnuesse\git\CWXTCOB_Unit_Tests\CWXTCOB Unit Tests\Unit Test\Stubs\CWXTCOB_RPTFILE_WRITE_01.stub">
     <testCase duration="0" name="Stub Assertions: CWXTCOB_RPTFILE_WRITE_01 Record 1: Check for BLANK_LINE"/>
     <testCase duration="0" name="Stub Assertions: CWXTCOB_RPTFILE_WRITE_01 Record 2: Check for BLANK_LINE"/>
     <testCase duration="0" name="Stub Assertions: CWXTCOB_RPTFILE_WRITE_01 Record 3: Check for BLANK_LINE"/>

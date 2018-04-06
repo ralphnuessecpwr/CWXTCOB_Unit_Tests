@@ -2,14 +2,20 @@
 <?totaltestVersion 18.3.1.v20180327-2102_9?>
 <!--Topaz for Total Test 18.3.1.v20180327-2102_9 05.04.2018 18:31:55-->
 <testsuites>
-  <testsuite errors="0" failures="0" name="Project: 'CWXTCOB Unit Tests' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1'" tests="436">
+  <testsuite errors="0" failures="1" name="Project: 'CWXTCOB Unit Tests' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1'" tests="436">
     <testcase classname="Project: 'CWXTCOB Unit Tests' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1'" name="Check for PARM_LTH"/>
     <testcase classname="Project: 'CWXTCOB Unit Tests' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1'" name="Check for PARM_DATA"/>
   </testsuite>
   <testsuite name="Stub Assertions: CWXTCOB_CWXTDATE_01">
     <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.0" name="Record 1: Check for END_OF_MONTH_SW"/>
     <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.0" name="Record 1: Check for YRS_OF_SERVICE"/>
-    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.0" name="Record 1: Check for TODAYS_DATE"/>
+    <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.0" name="Record 1: Check for TODAYS_DATE">
+      <failure>Check for TODAYS_DATE failed
+
+Actual Value:    		180406
+
+Expected Value:  180405</failure>
+    </testcase>
     <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.1" name="Record 2: Check for END_OF_MONTH_SW"/>
     <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.1" name="Record 2: Check for YRS_OF_SERVICE"/>
     <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.1" name="Record 2: Check for TODAYS_DATE"/>
