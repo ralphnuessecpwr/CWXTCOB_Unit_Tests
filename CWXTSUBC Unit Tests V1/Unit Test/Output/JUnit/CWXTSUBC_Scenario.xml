@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.2.1.v20170627-1433_24?>
+<!--Topaz for Total Test 18.2.1.v20170627-1433_24 2017-08-22 14:50:21-->
+<testsuites>
+  <testsuite errors="0" failures="0" name="Project: 'EMEA TTT Training' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1'" tests="2">
+    <testcase classname="Project: 'EMEA TTT Training' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1'" name="Check for SALES_AMOUNT"/>
+    <testcase classname="Project: 'EMEA TTT Training' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1'" name="Check for COMM_TOTAL"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Project: 'EMEA TTT Training' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2'" tests="1">
+    <testcase classname="Project: 'EMEA TTT Training' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2'" name="Check for COMM_TOTAL"/>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.2.1.v20170627-1433_24?>
+<!--Topaz for Total Test 18.2.1.v20170627-1433_24 2017-08-22 14:50:21-->
+<testExecutions version="1">
+  <file path="C:\Users\cwpl-mgrabins\Compuware\Workbench\workspace\EMEA TTT Training\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'EMEA TTT Training' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: 'EMEA TTT Training' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwpl-mgrabins\Compuware\Workbench\workspace\EMEA TTT Training\Unit Test\Scenarios\CWXTSUBC_Scenario.testscenario">
+    <testCase duration="0" name="Project: 'EMEA TTT Training' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2' Test: Check for COMM_TOTAL'"/>
+  </file>
+</testExecutions>

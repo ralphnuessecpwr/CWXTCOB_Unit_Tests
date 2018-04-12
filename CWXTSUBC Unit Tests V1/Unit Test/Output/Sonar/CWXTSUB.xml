@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.2.3.v20170915-1548_36?>
+<!--Topaz for Total Test 18.2.3.v20170915-1548_36 18.10.2017 23:23:19-->
+<testExecutions version="1">
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Mgmt.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Mgmt' Testcase: 'CWXTSUBCCase0' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Mgmt.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Mgmt' Testcase: 'CWXTSUBCCase0_02_1' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Mgmt.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Mgmt' Testcase: 'CWXTSUBCCase0_02_2' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Mgmt.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Mgmt' Testcase: 'CWXTSUBCCase0_02_3' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Mgmt.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Mgmt' Testcase: 'CWXTSUBCCase0_025_1' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Mgmt.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Mgmt' Testcase: 'CWXTSUBCCase0_025_2' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Mgmt.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Mgmt' Testcase: 'CWXTSUBCCase0_025_3' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Mgmt.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Mgmt' Testcase: 'CWXTSUBCCase0_035_1' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Mgmt.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Mgmt' Testcase: 'CWXTSUBCCase0_035_2' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Mgmt.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Mgmt' Testcase: 'CWXTSUBCCase0_035_3' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Mgmt.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Mgmt' Testcase: 'CWXTSUBCCase0_04_1' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Mgmt.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Mgmt' Testcase: 'CWXTSUBCCase0_04_2' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Mgmt.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Mgmt' Testcase: 'CWXTSUBCCase0_04_3' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase0' Test: Check for SALES_AMOUNT'"/>
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase0' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase0_02_1' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase0_02_2' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase0_02_3' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase0_04_1' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase0_04_2' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase0_04_3' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase0_08_1' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase0_08_2' Test: Check for COMM_TOTAL'"/>
+  </file>
+  <file path="C:\Users\cwde-rnuesse\Compuware\Topaz\Workspace - 18.2.1\CWXTSUBC Unit Tests V1\Unit Test\Scenarios\CWXTSUBC_Sales.testscenario">
+    <testCase duration="0" name="Project: 'CWXTSUBC Unit Tests V1' Scenario: 'CWXTSUBC_Sales' Testcase: 'CWXTSUBCCase0_08_3' Test: Check for COMM_TOTAL'"/>
+  </file>
+</testExecutions>
