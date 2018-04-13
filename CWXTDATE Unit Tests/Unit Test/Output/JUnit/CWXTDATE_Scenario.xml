@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 13.04.2018 11:02:40-->
+<testsuites>
+  <testsuite errors="0" failures="0" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" tests="5">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" name="Check for YRS_OF_SERVICE"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" name="Check for RUN_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" tests="8">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    		0
+
+Expected Value:  35</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for RUN_DD"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for HIRE_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for HIRE_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" tests="8">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    		35
+
+Expected Value:  24</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for RUN_DD"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for HIRE_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for HIRE_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" tests="8">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    		24
+
+Expected Value:  23</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for RUN_DD"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for HIRE_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for HIRE_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase5'" tests="8">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase5'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase5'" name="Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    		23
+
+Expected Value:  28</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase5'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase5'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase5'" name="Check for RUN_DD"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase5'" name="Check for HIRE_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase5'" name="Check for HIRE_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase5'" name="Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase6'" tests="8">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase6'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase6'" name="Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    		28
+
+Expected Value:  34</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase6'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase6'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase6'" name="Check for RUN_DD"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase6'" name="Check for HIRE_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase6'" name="Check for HIRE_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase6'" name="Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase7'" tests="8">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase7'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase7'" name="Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    		34
+
+Expected Value:  30</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase7'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase7'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase7'" name="Check for RUN_DD"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase7'" name="Check for HIRE_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase7'" name="Check for HIRE_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase7'" name="Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase8'" tests="8">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase8'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase8'" name="Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    		30
+
+Expected Value:  35</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase8'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase8'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase8'" name="Check for RUN_DD"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase8'" name="Check for HIRE_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase8'" name="Check for HIRE_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase8'" name="Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase9'" tests="8">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase9'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase9'" name="Check for YRS_OF_SERVICE"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase9'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase9'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase9'" name="Check for RUN_DD"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase9'" name="Check for HIRE_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase9'" name="Check for HIRE_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase9'" name="Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase10'" tests="8">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase10'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase10'" name="Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    		35
+
+Expected Value:  24</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase10'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase10'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase10'" name="Check for RUN_DD"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase10'" name="Check for HIRE_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase10'" name="Check for HIRE_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase10'" name="Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" tests="8">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" name="Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    		24
+
+Expected Value:  26</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" name="Check for RUN_DD"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" name="Check for HIRE_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" name="Check for HIRE_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase1'" name="Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" tests="8">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    		26
+
+Expected Value:  29</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for RUN_DD"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for HIRE_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for HIRE_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase2'" name="Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" tests="8">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    		29
+
+Expected Value:  31</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for RUN_DD"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for HIRE_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for HIRE_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase3'" name="Check for HIRE_DD"/>
+  </testsuite>
+  <testsuite errors="0" failures="1" name="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" tests="8">
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for EOM_SW"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for YRS_OF_SERVICE">
+      <failure>Check for YRS_OF_SERVICE failed
+
+Actual Value:    		31
+
+Expected Value:  34</failure>
+    </testcase>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for RUN_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for RUN_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for RUN_DD"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for HIRE_YY"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for HIRE_MM"/>
+    <testcase classname="Project: 'CWXTDATE Unit Tests' Scenario: 'CWXTDATE_Scenario' Testcase: 'CWXTDATECase4'" name="Check for HIRE_DD"/>
+  </testsuite>
+</testsuites>
