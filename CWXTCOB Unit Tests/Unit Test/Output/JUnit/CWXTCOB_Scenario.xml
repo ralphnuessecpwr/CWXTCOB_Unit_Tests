@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 18.3.1.v20180327-2102_9?>
-<!--Topaz for Total Test 18.3.1.v20180327-2102_9 05.04.2018 18:31:55-->
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 13.04.2018 11:02:40-->
 <testsuites>
   <testsuite errors="0" failures="1" name="Project: 'CWXTCOB Unit Tests' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1'" tests="436">
     <testcase classname="Project: 'CWXTCOB Unit Tests' Scenario: 'CWXTCOB_Scenario' Testcase: 'CWXTCOBCase1'" name="Check for PARM_LTH"/>
@@ -12,7 +12,7 @@
     <testcase classname="Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.Unit%20Test/Stubs/CWXTCOB_CWXTDATE_01.stub.0" name="Record 1: Check for TODAYS_DATE">
       <failure>Check for TODAYS_DATE failed
 
-Actual Value:    		180406
+Actual Value:    		180413
 
 Expected Value:  180405</failure>
     </testcase>
