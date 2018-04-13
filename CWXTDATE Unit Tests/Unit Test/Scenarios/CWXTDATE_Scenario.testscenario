@@ -2,7 +2,7 @@
 <testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario">
   <testscenario:description></testscenario:description>
   <testscenario:testcases>
-    <testscenario:testcase alias="" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase1" target="CWXTDATE">
+    <testscenario:testcase alias="" csect="CWXTDATE" id="Unit%20Test/Scenarios/CWXTDATE_Scenario.testscenario%23CWXTDATECase1" target="CWXTDATE">
       <testcase:description></testcase:description>
       <testcase:ddio>HDDRXM0.DEMO.LOAD.PDSE</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
@@ -66,13 +66,13 @@
           <checkconditions:expectation assert="=" type="number">19</checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_YY failed" name="Check for HIRE_YY" refData="#input.arg3.HIRE_DATE.HIRE_YY">
-          <checkconditions:expectation assert="noassert"></checkconditions:expectation>
+          <checkconditions:expectation assert="noassert" type="number"></checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_MM failed" name="Check for HIRE_MM" refData="#input.arg3.HIRE_DATE.HIRE_MM">
-          <checkconditions:expectation assert="noassert"></checkconditions:expectation>
+          <checkconditions:expectation assert="noassert" type="number"></checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
         <checkconditions:simpleCheckcondition message="Check for HIRE_DD failed" name="Check for HIRE_DD" refData="#input.arg3.HIRE_DATE.HIRE_DD">
-          <checkconditions:expectation assert="noassert"></checkconditions:expectation>
+          <checkconditions:expectation assert="noassert" type="number"></checkconditions:expectation>
         </checkconditions:simpleCheckcondition>
       </testcase:checkconditions>
       <testcase:stubs/>
