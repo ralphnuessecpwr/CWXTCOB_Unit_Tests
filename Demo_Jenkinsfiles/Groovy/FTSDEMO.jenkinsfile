@@ -22,7 +22,12 @@ String ISPW_RuntimeConfig   = "ISPW"
 String ISPW_Next_Level       = "QA1"
 
 // Directories for source and tests that are downloaded to the jenkins workspace
-String MF_Source            = "MF_Source" 
+String MF_Source_tmp        = "MF_Source" 
+String MF_Source_final      = "MF_Source_final" 
+
+String ProjDir              = ".\\" + ISPW_Application
+String TDir                 = ProjDir + "\\" + MF_Source_tmp
+String FDir                 = ProjDir + "\\" + MF_Source_final
 
 // TTT and COCO
 String TTT_Jcl              = "Runner_${ISPW_Src_Level}.jcl"
@@ -91,6 +96,25 @@ node{
     println "*************************"
     println "Download Source Code from ISPW"
 
+    // Delete the contents of the MF_Source Directory, so that only newly downloaded sources get handled
+    dir(TDir) 
+    {
+        deleteDir()
+    }
+    
+    // Create the MF_Source_final Directory, if it does not exist
+    if( not( fileExists(FDir)))
+    {
+        dir(ProjDir) 
+        {
+            bat "mkdir ${MF_Source_final}"
+        }
+    }
+    else
+    {
+        println "FDir: " + FDir + " exists"
+    }
+      
     stage("Download Source Code from ISPW")
     {
         checkout(changelog: false, poll: false, 
@@ -99,7 +123,7 @@ node{
                 connectionId: "${HCI_Conn_ID}", 
                 credentialsId: "${Jenkins_Id}", 
                 folderName: '', 
-                levelOption: '1', 
+                levelOption: '0', 
                 serverApplication: "${ISPW_Application}", 
                 serverConfig: "${ISPW_RuntimeConfig}", 
                 serverLevel: "${ISPW_Src_Level}", 
@@ -108,6 +132,12 @@ node{
 
     println "*************************"
     println "Get TTT projects from Git"
+
+    // Copy downloaded sources from MF_Source to MF_Source_final
+    dir(ProjDir)
+    {
+        bat "copy ${MF_Source_tmp}\\*.* ${MF_Source_final}"
+    }
 
     stage("Get TTT projects from Git")
     {
@@ -120,7 +150,6 @@ node{
                 submoduleCfg: [], 
                 userRemoteConfigs: [[credentialsId: '87763671-db9a-47e1-80e7-33c1aba803b1', name: 'origin', url: 'https://github.com/ralphnuessecpwr/CWXTCOB_Unit_Tests.git']]]
     }
-
 
     println "*************************"
     println "Loop through TTT projects"
