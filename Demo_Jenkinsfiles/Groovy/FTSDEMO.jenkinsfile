@@ -103,16 +103,16 @@ node{
     }
     
     // Create the MF_Source_final Directory, if it does not exist
-    if( not( fileExists(FDir)))
+    if( fileExists(FDir))
+    {
+        println "FDir: " + FDir + " exists"
+    }
+    else
     {
         dir(ProjDir) 
         {
             bat "mkdir ${MF_Source_final}"
-        }
-    }
-    else
-    {
-        println "FDir: " + FDir + " exists"
+        }        
     }
       
     stage("Download Source Code from ISPW")
